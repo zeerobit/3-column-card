@@ -1,0 +1,182 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+:root {
+	--bright_orange: hsl(31, 77%, 52%); 
+	--dark_cyan: hsl(184, 100%, 22%); 
+	--very_dark_cyan: hsl(179, 100%, 13%);
+	--transparent_white: hsla(0, 0%, 100%, 0.75); /*for parapgrahs*/
+	--very_light_gray: hsl(0, 0%, 95%); /*background, heading, button*/
+}
+
+body {
+    box-sizing: border-box;
+    font-size: 0.94rem;
+    min-height: 100vh;
+}
+
+.container {
+	max-width: 23.4rem;
+	margin: auto;
+	min-height: 100vh;
+	padding: 5.3rem 1.5rem;
+	
+}
+
+.panel {
+	max-width: 20rem;
+	min-height: 27rem;
+	padding-left: 3rem;
+	padding-right: 4.8rem;
+}
+
+img {
+	margin-top: 3.3rem;
+}
+
+.header_title {
+	margin-top: 2.6rem;
+	font-family: Big Shoulders Display, sans-serif;
+	font-weight: 700;
+	font-size: 1.6rem;
+	color: var(--very_light_gray);
+}
+
+.content {
+	margin-top: 2.5rem;
+	color: var(--transparent_white);
+	line-height: 1.3rem;
+	font-family: Lexend Deca, sans-serif;
+	font-weight: 400;
+	font-size: 0.8rem;
+}
+
+.btn {
+	background-color: var(--very_light_gray);
+	display: inline-block;
+	text-decoration: none;
+	font-family: Lexend Deca, sans-serif;
+	border-radius: 3rem;
+	padding: 1rem 2.6rem;
+	font-size: 0.65rem;
+	font-weight: 700;
+	margin-top: 2rem;
+}
+
+.sedan a {
+	color: var(--bright_orange);
+}
+
+.suv a {
+	color: var(--dark_cyan);
+}
+
+.luxury a {
+	color: var(--very_dark_cyan);
+}
+
+
+.sedan {
+	background-color: var(--bright_orange);
+	border-radius: 0.5rem 0.5rem 0 0 ;
+}
+
+.suv {
+	background-color: var(--dark_cyan);
+}
+
+.luxury {
+	background-color: var(--very_dark_cyan);
+	border-radius: 0 0 0.5rem 0.5rem ;
+}
+
+.attribution {
+    font-size: 0.68rem;
+    text-align: center;
+}
+
+.attribution a {
+    color: var(--dark_cyan)
+}
+
+@media only screen and (min-width: 56.25rem) {
+	body {
+		display: flex;
+		align-items: center;
+		justify-content: center;
+		flex-direction: column;
+	}
+
+	.container {
+		display: flex;
+		min-height: 31rem;
+		min-width: 57rem;
+	}
+
+	.sedan {
+		border-radius: 0.5rem 0 0 0.5rem ;
+	}
+
+	.luxury {
+		border-radius: 0 0.5rem 0.5rem 0 ;
+	}
+
+	.btn {
+		margin-top: 5.5rem;
+	}
+
+
+	.btn:hover {
+		background-color: transparent;
+		color: var(--transparent_white);
+		border: 2px solid var(--transparent_white);
+		font-weight: bold;
+	}
+
+}
