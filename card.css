@@ -104,7 +104,7 @@ img {
 	font-family: Lexend Deca, sans-serif;
 	border-radius: 3rem;
 	padding: 1rem 2.6rem;
-	font-size: 0.65rem;
+	font-size: 0.9rem;
 	font-weight: 700;
 	margin-top: 2rem;
 }
@@ -159,6 +159,14 @@ img {
 		min-width: 57rem;
 	}
 
+	.panel {
+		padding-right: 3.25rem;
+	}
+
+	.content {
+		font-size: 0.9rem;
+	}
+
 	.sedan {
 		border-radius: 0.5rem 0 0 0.5rem ;
 	}
@@ -169,6 +177,7 @@ img {
 
 	.btn {
 		margin-top: 5.5rem;
+		padding: 1rem 2rem;
 	}
 
 
