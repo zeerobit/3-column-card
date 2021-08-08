@@ -37,8 +37,8 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+- Solution URL: https://www.frontendmentor.io/solutions/3columnpreviewncard-component-html-css-flexbox-rIaIl3pQP
+- Live Site URL: https://zeerobit.github.io/3-column-card/
 
 ## My process
 
