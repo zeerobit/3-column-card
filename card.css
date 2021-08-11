@@ -145,6 +145,14 @@ img {
     color: var(--dark_cyan)
 }
 
+@media only screen and (max-width: 20rem){
+	.btn {
+		border-radius: 3rem;
+		padding: 1rem 2rem;
+		}
+}
+
+
 @media only screen and (min-width: 56.25rem) {
 	body {
 		display: flex;
