@@ -243,11 +243,18 @@ body {
 
   .btn {
     margin-top: 5.5rem;
+    /* added this border to stop buttons from moving on hover  */
+    border: 2px solid transparent;
   }
 
-  .btn:hover {
+  .btn:hover,
+  .btn:focus {
     background-color: transparent;
     color: var(--transparent_white);
     border: 2px solid var(--transparent_white);
+  }
+
+  .attribution {
+    font-size: 0.8rem;
   }
 }
