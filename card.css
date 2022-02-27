@@ -133,6 +133,7 @@ table {
 ::after {
   box-sizing: border-box;
 }
+/* End of CSS reset  */
 
 :root {
   --bright_orange: hsl(31, 77%, 52%);
@@ -152,6 +153,7 @@ body {
   flex-direction: column;
 }
 
+/* h1 for screenreader only  */
 .sr-only:not(:focus):not(:active) {
   clip: rect(0 0 0 0);
   clip-path: inset(50%);
